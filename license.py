@@ -3,8 +3,8 @@ license_view = Tk()
 
 def display_license_view():
     license_view.title("Taller GIT - Licencia") 
-    license_view.minsize(500,500) 
-    license_view.maxsize(500,500)
+    license_view.minsize(800,800) 
+    license_view.maxsize(800,800)
      
     license_lbl = Label(license_view, text = "Licencia", font = ("calibri","18"), fg = "#000b98", width= 28, height = 1)
     license_lbl.place(x = 20, y = 20)
