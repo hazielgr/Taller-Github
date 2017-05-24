@@ -10,6 +10,12 @@ def display_license_view():
     license_lbl.place(x = 20, y = 20)
      
     license_view.mainloop()
+license_desc = Text(license_view, width= 65, height = 8, bg = "#CCC")
+
+license_desc.pack()
+license_desc.insert(END, "Copyright (C) 2007 Free Software Foundation, Inc. http://fsf.org/ Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.")
+license_desc.config(state=DISABLED)
+license_desc.place(x = 20, y = 60)
 
 # Eliminar esta linea para que la ventana se abra cuando se presione el botón en el menú principal.
 display_license_view()
