@@ -6,8 +6,8 @@ import about
 root = Tk() # Tk initialize
  
 root.title("Taller GIT") 
-root.minsize(1000,1000) 
-root.maxsize(1000,1000)
+root.minsize(800,800) 
+root.maxsize(800,800)
  
 #Label con texto
 #etiquetatexto = Label(WidgetContenedor, text=Contenido, font = (Tipo,Tamanno), bg=ColorDeFondo, fg=ColorDeLetra, width, height)
