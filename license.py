@@ -17,5 +17,4 @@ license_desc.insert(END, "Copyright (C) 2007 Free Software Foundation, Inc. http
 license_desc.config(state=DISABLED)
 license_desc.place(x = 20, y = 60)
 
-# Eliminar esta linea para que la ventana se abra cuando se presione el botón en el menú principal.
-display_license_view()
+
